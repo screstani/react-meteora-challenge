@@ -2,10 +2,13 @@ import { Badge } from '@material-ui/core'
 import { Search, ShoppingCartOutlined } from '@material-ui/icons'
 import React from 'react'
 import styled from 'styled-components'
+import LogoImage from '../img/Logo-desktop.png';
+import USFlag from '../img/USflag.png';
 
 const Container = styled.div`
-    height: 60px;
-    background-color: grey;
+    height: 58px;
+    background-color: black;
+    color: white;
 `
 const Wrapper = styled.div`
     padding: 10px 20px;
@@ -22,6 +25,11 @@ const Left = styled.div`
 const Language = styled.span`
     font-size: 14px;
     cursor: pointer;
+    padding-left: 15px;
+`
+
+const LanguageFlag = styled.img`
+    height: 20px;s
 `
 
 const SearchContainer = styled.div`
@@ -37,12 +45,14 @@ const Input = styled.input`
 `
 const Center = styled.div`
     flex: 1;
-    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
 `
-// const Logo = styled.h1`
-//     font-weight: bold;
-// `
-const LogoImage = styled.img`
+const Logo = styled.h1`
+     font-weight: bold;
+ `
+const LogoImages = styled.img`
   height: 40px;
   width: auto;
 `
@@ -63,26 +73,31 @@ const Navbar = () => {
     <Container>
         <Wrapper>
             <Left>
-                <Language>EN</Language>
-                <SearchContainer>
-                    <Input/>
-                    <Search style={{color: "black", fontSize: 16}}/>
-                </SearchContainer>
+                <Logo>
+                    <LogoImages src={LogoImage} alt="Logo" />   
+                </Logo>
+                <MenuItem>Home</MenuItem>
+                <MenuItem>Stores</MenuItem> 
+                <MenuItem>What's New</MenuItem>
+                <MenuItem>Outlet</MenuItem> 
             </Left>
             <Center>
-                {/* <Logo> */}
-                    <LogoImage src="/Users/sayonaracrestani/Desktop/Programação/alura/react-meteora-challenge/src/img/Logo-desktop.png" alt="" />    
-                {/* </Logo> */}
+                <SearchContainer>
+                    <Input/>
+                    <Search style={{color: "white", fontSize: 16}}/>
+                </SearchContainer>
             </Center>
             <Right>
-                <MenuItem>REGISTER</MenuItem>
+            <MenuItem>REGISTER</MenuItem>
                 <MenuItem>SIGN IN</MenuItem>
                 <MenuItem>
                     <Badge badgeContent = {4} color="primary">
                         <ShoppingCartOutlined/>
                     </Badge>
                 </MenuItem>
-
+                <MenuItem>
+                    <Language><LanguageFlag src= {USFlag} alt="English language" /></Language>
+                </MenuItem>
             </Right>
         </Wrapper>
     </Container>
