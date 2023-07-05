@@ -1,6 +1,12 @@
 import banner1 from './img/banner1.png'
 import banner2 from './img/banner2.png'
 import banner3 from './img/banner3.png'
+import shirts from './img/Categories/shirts.png'
+import purses from './img/Categories/purses.png'
+import shoes from './img/Categories/shoes.png'
+import pants from './img/Categories/pants.png'
+import sweaters from './img/Categories/sweaters.png'
+import glasses from './img/Categories/glasses.png'
 
 export const sliderItems = [
     {
@@ -28,3 +34,36 @@ export const sliderItems = [
       bg: "fbf0f4",
     },
   ];
+
+  export const categories = [
+    {
+      id: 1, 
+      img: shirts, 
+      title: "SHIRTS",
+    },
+    {
+      id: 2,
+      img: purses,
+      title: "PURSES",
+    },
+    { 
+      id: 3,
+      img: shoes,
+      title: "SHOES",
+    },
+    {
+      id: 4,
+      img: pants,
+      title: "PANTS",
+    },
+    {
+      id: 5,
+      img: sweaters,
+      title: "SWEATERS",
+    },
+    {
+      id: 6,
+      img: glasses,
+      title: "GLASSES",
+    }
+  ]

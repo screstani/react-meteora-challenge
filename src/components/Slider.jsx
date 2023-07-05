@@ -121,7 +121,7 @@ const Content = styled.div`
 const Title = styled.h1`
     font-size: 40px;
     padding: 0px 50px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 `
 const Description = styled.p`
     margin: 5px 0px;
@@ -136,6 +136,7 @@ const Description = styled.p`
 //     font-size: 20px;
 //     background-color: transparent;
 //     cursor: pointer;
+//     color: white;
 // `
 
 
@@ -163,6 +164,7 @@ const Slider = () => {
                         <Title>{sliderItems[slideIndex].title}</Title>
                         <Description>{item.desc}</Description>
                         <Description>{item.underdesc}</Description>
+                        {/* <Button>SHOP NOW</Button> */}
                     </Content>
                 </Slide>    
                 ))}
