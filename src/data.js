@@ -7,6 +7,18 @@ import shoes from './img/Categories/shoes.png'
 import pants from './img/Categories/pants.png'
 import sweaters from './img/Categories/sweaters.png'
 import glasses from './img/Categories/glasses.png'
+import shirt from './img/PopularProducts/shirt.png'
+import purse from './img/PopularProducts/purse.png'
+import tenis from './img/PopularProducts/tenis.png'
+import pant from './img/PopularProducts/pant.png'
+import jacket from './img/PopularProducts/jacket.png'
+import glasse from './img/PopularProducts/glasse.png'
+import payment from './img/payment.png'
+
+export const footer =
+  {
+    img: payment,
+  };
 
 export const sliderItems = [
     {
@@ -66,4 +78,49 @@ export const sliderItems = [
       img: glasses,
       title: "GLASSES",
     }
-  ]
+  ];
+  
+  export const popularProducts = [
+    {
+      id: 1,
+      img: shirt,
+      title: "Confort T-Shirt",
+      desc: "Multicolored and various sizes. 100% cotton fabric, perfect for the summer. Unisex design.",
+      price: "€ 29.00",
+    },
+    {
+      id: 2,
+      img: pant,
+      title: "Tailored Trousers",
+      desc: "Wide Leg tailoring model in linen. A timeless and must-have piece!",
+      price: "€ 49.00",
+    },
+    {
+      id: 3,
+      img: tenis,
+      title: "Chunky Tennis",
+      desc: "Casual sneaker with a higher sole and robust design. Unisex model.",
+      price: "€ 109.00",
+    },
+    {
+      id: 4,
+      img: jacket,
+      title: "Jeans Jacket",
+      desc: "Oversized unisex model with suede collar. Timeless and authentic!",
+      price: "€ 65.00",
+    },
+    {
+      id: 5,
+      img: glasse,
+      title: "Round Glasses",
+      desc: "Graphite metal frame with rounded lenses. No mistake!",
+      price: "€ 49.00",
+    },
+    {
+      id: 6,
+      img: purse,
+      title: "Go-to Bag",
+      desc: "Camel-colored bag in high-quality synthetic leather. Ideal to accompany you for a lifetime!",
+      price: "€ 79.00",
+    }
+  ];
