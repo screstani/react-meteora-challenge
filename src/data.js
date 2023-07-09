@@ -120,7 +120,7 @@ export const sliderItems = [
       id: 6,
       img: purse,
       title: "Go-to Bag",
-      desc: "Camel-colored bag in high-quality synthetic leather. Ideal to accompany you for a lifetime!",
+      desc: "Camel-colored bag in high-quality synthetic leather. Ideal company for a lifetime!",
       price: "€ 79.00",
     }
   ];
