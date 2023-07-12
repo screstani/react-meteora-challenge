@@ -16,6 +16,12 @@ import glasse from './img/PopularProducts/glasse.png'
 import payment from './img/payment.png'
 import background from './img/background.png'
 import backgroundlogin from './img/background-login.png'
+import sneaker from './img/sneakers.png'
+
+export const sneakers = 
+  {
+    img: sneaker,
+  }
 
 export const backglogin =
   {
