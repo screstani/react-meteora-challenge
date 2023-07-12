@@ -2,7 +2,7 @@ import styled from 'styled-components'
 import Newsletter from '../components/Newsletter'
 import Footer from '../components/Footer'
 import Navbar from '../components/Navbar'
-import Annoucement from '../components/Annoucement'
+import Annoucement from '../components/Announcement'
 import { popularProducts } from "../data"
 import { Remove, Add } from '@material-ui/icons'
 

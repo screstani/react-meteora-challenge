@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 import Navbar from '../components/Navbar'
-import Annoucement from '../components/Annoucement'
+import Annoucement from '../components/Announcement'
 import Products from '../components/Products'
 import Newsletter from '../components/Newsletter'
 import Footer from '../components/Footer'

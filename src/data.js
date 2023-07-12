@@ -14,6 +14,18 @@ import pant from './img/PopularProducts/pant.png'
 import jacket from './img/PopularProducts/jacket.png'
 import glasse from './img/PopularProducts/glasse.png'
 import payment from './img/payment.png'
+import background from './img/background.png'
+import backgroundlogin from './img/background-login.png'
+
+export const backglogin =
+  {
+    img: backgroundlogin,
+  }
+
+export const backg = 
+  {
+    img: background,
+  };
 
 export const footer =
   {
